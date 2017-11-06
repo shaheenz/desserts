@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 480px) {
+    #main-nav ul {
+        display: block;
+        width:600px;
+        position: relative;
+        margin:auto;
+        padding: 0px;
+    }
+/*compared to responsive design no change?*/
+    #main-nav a{
+        color:white;
+      }
+
+    #burger-menu-container{
+        display: none;
+    }
+
+    .lead-text {
+        float:left;
+        width:33.33%;
+        padding:10px;
+        /*border-style: solid;*/
+        /*border-width: medium;*/
+        /*border-radius: 25px;*/
+        /*border-color: black;*/
+    }
+
+    .image-block {
+        float:left;
+        position: relative;
+        width:33.33%;
+        text-align: center;
+        /*how to get text in centre of image*/
+    }
+
+    /*.image-block-overlay {*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*bottom: 50%;*/
+/*text-align: center;*/
+
+  }

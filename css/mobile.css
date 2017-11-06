@@ -1,0 +1,161 @@
+/*put this in everything*/
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+/*use the same units for size throughout?*/
+
+body {
+  font-family: 'Dekko', sans-serif;
+  font-size: 16px
+}
+
+h1, h2, h3 {
+font-family: 'Aladin', sans-serif;
+
+}
+h1 {
+  font-size: 35px
+}
+
+h2 {
+  font-size: 28px
+}
+
+h3 {
+font-size: 22px
+ }
+
+#main-nav {
+position:fixed;
+top: 0;
+left: 0;
+height: 50px;
+line-height: 50px;
+width: 100%;
+background: black;
+}
+
+#main-nav a{
+    color:white;
+  }
+
+#burger-menu-container{
+    position: absolute;
+    top:10px;
+    right:10px;
+    height:30px;
+    width:30px;
+}
+
+.burger-menu-piece{
+    height:6px;
+    width:100%;
+    border-radius:3px;
+    background: white;
+        margin:2px 0;
+}
+/*can i crop an image in css?*/
+#hero-container{
+  text-align: center;
+    position: relative;
+    color:white;
+    font-weight: bold;
+    background: url('https://static.pexels.com/photos/205961/pexels-photo-205961.jpeg');
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    z-index: -1;
+}
+
+#hero-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    padding:7px;
+    border: 1px black;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+
+main > h2{
+  padding: 20px 0;
+  width: 100%;
+  text-align:center;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+main > h2:before, main > h2:after{
+  content: "\1F60B";
+  padding: 0px 10px;
+
+}
+.lead-text p:last-child {
+  font-size: 1.2em;
+  padding: 0 10px 50px 10px;
+  padding-bottom: 50px;
+}
+
+.lead-text p:first-child {
+  font-size: 2em;
+  padding: 1.4em;
+}
+
+.image-block {
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+  weight: 20em;
+  background-size: 100% auto;
+  transition: all 0.5s ease;
+}
+
+.image-block-overlay {
+  padding:20px;
+  color:white;
+  background:rgba(0,0,0,0.4);
+  height:100%;
+}
+
+.image-block-overlay > h3{
+    padding: 0px 0px 10px 0px;
+}
+
+.image-block:hover{
+    overflow: hidden;
+    background-size: 120%;
+}
+
+#image-cappuccino {
+  background-image: url(https://static.pexels.com/photos/312420/pexels-photo-312420.jpeg);
+}
+
+#image-mocha {
+  background-image: url(https://static.pexels.com/photos/350478/pexels-photo-350478.jpeg);
+}
+
+#image-cupcake {
+  background-image: url(https://static.pexels.com/photos/185471/pexels-photo-185471.jpeg);
+}
+
+#image-cheesecake {
+  background-image: url(https://static.pexels.com/photos/219293/pexels-photo-219293.jpeg);
+}
+
+#image-cheddar {
+  background-image: url(https://static.pexels.com/photos/365518/pexels-photo-365518.jpeg);
+}
+
+#image-brie{
+  background-image: url(https://static.pexels.com/photos/306801/pexels-photo-306801.jpeg);
+}
+
+footer
+{
+    clear: both;
+    text-align: right;
+}
